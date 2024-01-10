@@ -2,10 +2,10 @@
 My model for enhancing low resolution images to high resolution images, built in PyTorch using the the CelebA dataset from Kaggle.
 
 ## Results:
-### Orignial image 
-![alt text](http://url/to/img.png)
+### Orignial image fed into SharpifyAI
+![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A2.png?raw=true)
 ### SharpigyAI produced image 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A2.png?raw=true)
 
 > [!IMPORTANT]
 > If you have any issues even when following the documentation below, please reference the google collab as not all the needed code for rendering the images for example is present within this section, also do feel free to contact me @hashemjaber02@gmail.com for any inquries or issues
