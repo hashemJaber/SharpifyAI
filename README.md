@@ -1,11 +1,6 @@
 # SharpifyAI
 My model for enhancing low resolution images to high resolution images, built in PyTorch using the the CelebA dataset from Kaggle.
 
-## Results:
-### Orignial image fed into SharpifyAI
-![img](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A3.png?raw=true)
-### SharpigyAI produced image 
-![img](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A3.png?raw=true)
 
 
 
@@ -16,7 +11,14 @@ Introduction
 
 This project presents a neural network model, the SuperResolutionNetworkNew, which is designed to upscale low-resolution images into high-quality, detailed versions. This model is implemented using PyTorch and has been trained on a variety of datasets to ensure robust performance.
 
-Setup
+
+## Results:
+### Orignial image fed into SharpifyAI
+![img](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A3.png?raw=true)
+### SharpigyAI produced image 
+![img](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A3.png?raw=true)
+
+# Setup
 
 Prerequisites
 Python 3.x
@@ -208,6 +210,7 @@ def unitTest(test_size):
   for i in range(test_size):
     testView()
 ```
+
 Load the model:
 ```Python
 model_path = 'path_to_your_model/super_resolution_model_2.pth'
@@ -239,8 +242,14 @@ for i in range(num_images):
 Additional Notes
 Some methods wont work since they might need other dependencies or code to work as well as connections to data files, for references you may want to check the google collab where I did the project on.
 ## Other examples that are from the internet 
-### Orignial image fed into SharpifyAI
+### Orignial image fed into SharpifyAI 
 ![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A2.png?raw=true)
 
 ### SharpigyAI produced image 
 ![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A2.png?raw=true)
+
+### Orignial image fed into SharpifyAI
+![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A1.png?raw=true)
+
+### SharpigyAI produced image 
+![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A1.png?raw=true)
