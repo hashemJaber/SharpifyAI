@@ -3,9 +3,11 @@ My model for enhancing low resolution images to high resolution images, built in
 
 ## Results:
 ### Orignial image fed into SharpifyAI
-![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A2.png?raw=true)
+![img](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A3.png?raw=true)
 ### SharpigyAI produced image 
-![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A2.png?raw=true)
+![img](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A3.png?raw=true)
+
+
 
 > [!IMPORTANT]
 > If you have any issues even when following the documentation below, please reference the google collab as not all the needed code for rendering the images for example is present within this section, also do feel free to contact me @hashemjaber02@gmail.com for any inquries or issues
@@ -236,3 +238,9 @@ for i in range(num_images):
 ``` 
 Additional Notes
 Some methods wont work since they might need other dependencies or code to work as well as connections to data files, for references you may want to check the google collab where I did the project on.
+## Other examples that are from the internet 
+### Orignial image fed into SharpifyAI
+![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A2.png?raw=true)
+
+### SharpigyAI produced image 
+![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A2.png?raw=true)
