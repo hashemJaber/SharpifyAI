@@ -25,6 +25,9 @@ Python 3.x
 PyTorch
 PIL (Python Imaging Library)
 Matplotlib (for image display)
+> [!IMPORTANT]
+> There are other dependcies such as TorchVision, Wheel, and etc, there is a Django bakcend application in my github that was used to attempt to deploy the model, you will find extra information from the requirments.txt file....as you do so please do check my other projects
+
 Installation
 Clone the repository:
 bash
@@ -211,11 +214,14 @@ def unitTest(test_size):
     testView()
 ```
 
-Load the model:
+# Load the model:
 ```Python
-model_path = 'path_to_your_model/super_resolution_model_2.pth'
+import torch
+from google.colab import drive
+drive.mount('/content/drive')
+model_path = '/content/drive/My Drive/model_face_gen_1/super_resolution_model_2.pth' ##This links to path of the model in my google drive, replace it with your own 
 model = torch.load(model_path)
-model.eval()
+model.eval()  # Set the model to evaluation model
 ```
 Prepare your images:
 Place your low-resolution images in a directory.
@@ -241,13 +247,13 @@ for i in range(num_images):
 ``` 
 Additional Notes
 Some methods wont work since they might need other dependencies or code to work as well as connections to data files, for references you may want to check the google collab where I did the project on.
-## Other examples that are from the internet 
+
 ### Orignial image fed into SharpifyAI 
 ![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A2.png?raw=true)
 
 ### SharpigyAI produced image 
 ![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/after_A2.png?raw=true)
-
+## Other examples that are from the internet 
 ### Orignial image fed into SharpifyAI
 ![alt text](https://github.com/hashemJaber/SharpifyAI/blob/main/before_A1.png?raw=true)
 
